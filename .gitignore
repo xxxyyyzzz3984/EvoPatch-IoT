@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Dataset and third-party tool installations are external inputs.
+busybox_sources_codes/
+busybox_stripped_dataset/
+busybox_unstripped_dataset/
+ghidra/
+
+# Generated experiments, features, logs, figures, and revision outputs.
+experiments/artifacts/
+experiments/runs/
+revision_results/
+paper-tools/figures/
+paper-tools/revision_results/
+output/
+*.log

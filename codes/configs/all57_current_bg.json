@@ -1,0 +1,34 @@
+{
+  "ghidra_run": "experiments/runs/ghidra_all57",
+  "label_run": "experiments/runs/labels_all57",
+  "archs": [
+    "aarch64",
+    "arm",
+    "mips",
+    "mipsel",
+    "x86_64"
+  ],
+  "versions_mode": "completed_only",
+  "explicit_versions": [],
+  "require_complete_run": true,
+  "min_size": 16,
+  "min_instr": 4,
+  "match_window": 96,
+  "match_max_dist": 0.2,
+  "max_queries": 300,
+  "methods": [
+    "size_stat",
+    "shape_stat",
+    "clap",
+    "issta_2024",
+    "gtrans",
+    "bar_2024",
+    "ammf",
+    "cybersecurity_2025",
+    "binary2vec",
+    "array_2025",
+    "evopatch_iot",
+    "vexir2vec_2023",
+    "ex2vec_2025"
+  ]
+}
